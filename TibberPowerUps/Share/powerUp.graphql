@@ -1,0 +1,10 @@
+query powerUpQuery {
+  assignmentData {
+    title
+    description
+    longDescription
+    connected
+    storeUrl
+    imageUrl
+  }
+}

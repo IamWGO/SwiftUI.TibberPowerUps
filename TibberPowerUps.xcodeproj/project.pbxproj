@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABCD4E7C27CF75A600582A22 /* TibberPowerUpsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD4E7B27CF75A600582A22 /* TibberPowerUpsApp.swift */; };
+		ABCD4E7E27CF75A600582A22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD4E7D27CF75A600582A22 /* ContentView.swift */; };
+		ABCD4E8027CF75A900582A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCD4E7F27CF75A900582A22 /* Assets.xcassets */; };
+		ABCD4E8327CF75A900582A22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCD4E8227CF75A900582A22 /* Preview Assets.xcassets */; };
+		ABCD4E8B27CF75D200582A22 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = ABCD4E8A27CF75D200582A22 /* Apollo */; };
+		ABCD4E8E27CF760600582A22 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = ABCD4E8D27CF760600582A22 /* schema.json */; };
+		ABCD4E9127CF76AB00582A22 /* powerUp.graphql in Resources */ = {isa = PBXBuildFile; fileRef = ABCD4E9027CF76AA00582A22 /* powerUp.graphql */; };
+		ABCD4E9327CF77DA00582A22 /* PowerUpsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD4E9227CF77DA00582A22 /* PowerUpsVM.swift */; };
+		ABCD4E9527CF77E900582A22 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD4E9427CF77E900582A22 /* Network.swift */; };
+		ABCD4E9727CF7AFF00582A22 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD4E9627CF7AFF00582A22 /* API.swift */; };
+		ABCD4E9D27CF81DB00582A22 /* PowerUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD4E9C27CF81DB00582A22 /* PowerUpModel.swift */; };
+		ABDE0F6127CFBD84007B6C8E /* DeivceProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE0F6027CFBD83007B6C8E /* DeivceProperties.swift */; };
+		ABDE0F6527CFBFC7007B6C8E /* PowerUpListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE0F6427CFBFC7007B6C8E /* PowerUpListView.swift */; };
+		ABDE0F6727CFBFD7007B6C8E /* PowerUpDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE0F6627CFBFD7007B6C8E /* PowerUpDetailView.swift */; };
+		ABDE0F6927CFC34D007B6C8E /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE0F6827CFC34C007B6C8E /* Modifier.swift */; };
+		ABDE0F6B27CFC7CE007B6C8E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE0F6A27CFC7CE007B6C8E /* Constants.swift */; };
+		ABDE0F6D27CFF5D1007B6C8E /* ShareViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE0F6C27CFF5D0007B6C8E /* ShareViews.swift */; };
+		ABDE0F7127D09773007B6C8E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE0F7027D09770007B6C8E /* LoadingView.swift */; };
+		ABDE0F7327D0A097007B6C8E /* FetchErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE0F7227D0A095007B6C8E /* FetchErrorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABCD4E7827CF75A600582A22 /* TibberPowerUps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TibberPowerUps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCD4E7B27CF75A600582A22 /* TibberPowerUpsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TibberPowerUpsApp.swift; sourceTree = "<group>"; };
+		ABCD4E7D27CF75A600582A22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABCD4E7F27CF75A900582A22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABCD4E8227CF75A900582A22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABCD4E8D27CF760600582A22 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		ABCD4E9027CF76AA00582A22 /* powerUp.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = powerUp.graphql; sourceTree = "<group>"; };
+		ABCD4E9227CF77DA00582A22 /* PowerUpsVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerUpsVM.swift; sourceTree = "<group>"; };
+		ABCD4E9427CF77E900582A22 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		ABCD4E9627CF7AFF00582A22 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		ABCD4E9C27CF81DB00582A22 /* PowerUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUpModel.swift; sourceTree = "<group>"; };
+		ABDE0F6027CFBD83007B6C8E /* DeivceProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeivceProperties.swift; sourceTree = "<group>"; };
+		ABDE0F6427CFBFC7007B6C8E /* PowerUpListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUpListView.swift; sourceTree = "<group>"; };
+		ABDE0F6627CFBFD7007B6C8E /* PowerUpDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUpDetailView.swift; sourceTree = "<group>"; };
+		ABDE0F6827CFC34C007B6C8E /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		ABDE0F6A27CFC7CE007B6C8E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ABDE0F6C27CFF5D0007B6C8E /* ShareViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViews.swift; sourceTree = "<group>"; };
+		ABDE0F7027D09770007B6C8E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		ABDE0F7227D0A095007B6C8E /* FetchErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchErrorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABCD4E7527CF75A600582A22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCD4E8B27CF75D200582A22 /* Apollo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABCD4E6F27CF75A600582A22 = {
+			isa = PBXGroup;
+			children = (
+				ABCD4E7A27CF75A600582A22 /* TibberPowerUps */,
+				ABCD4E7927CF75A600582A22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABCD4E7927CF75A600582A22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD4E7827CF75A600582A22 /* TibberPowerUps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABCD4E7A27CF75A600582A22 /* TibberPowerUps */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD4E8C27CF75DC00582A22 /* Share */,
+				ABCD4E9A27CF814100582A22 /* Model */,
+				ABCD4E9827CF812500582A22 /* View */,
+				ABCD4E9927CF812E00582A22 /* ViewModel */,
+				ABCD4E9B27CF81A100582A22 /* Utility */,
+				ABCD4E8D27CF760600582A22 /* schema.json */,
+				ABCD4E8127CF75A900582A22 /* Preview Content */,
+			);
+			path = TibberPowerUps;
+			sourceTree = "<group>";
+		};
+		ABCD4E8127CF75A900582A22 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD4E8227CF75A900582A22 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABCD4E8C27CF75DC00582A22 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD4E7B27CF75A600582A22 /* TibberPowerUpsApp.swift */,
+				ABCD4E9627CF7AFF00582A22 /* API.swift */,
+				ABCD4E9427CF77E900582A22 /* Network.swift */,
+				ABCD4E9027CF76AA00582A22 /* powerUp.graphql */,
+				ABCD4E7F27CF75A900582A22 /* Assets.xcassets */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		ABCD4E9827CF812500582A22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD4E7D27CF75A600582A22 /* ContentView.swift */,
+				ABDE0F6427CFBFC7007B6C8E /* PowerUpListView.swift */,
+				ABDE0F6627CFBFD7007B6C8E /* PowerUpDetailView.swift */,
+				ABDE0F6C27CFF5D0007B6C8E /* ShareViews.swift */,
+				ABDE0F7027D09770007B6C8E /* LoadingView.swift */,
+				ABDE0F7227D0A095007B6C8E /* FetchErrorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ABCD4E9927CF812E00582A22 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD4E9227CF77DA00582A22 /* PowerUpsVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ABCD4E9A27CF814100582A22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD4E9C27CF81DB00582A22 /* PowerUpModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ABCD4E9B27CF81A100582A22 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				ABDE0F6027CFBD83007B6C8E /* DeivceProperties.swift */,
+				ABDE0F6827CFC34C007B6C8E /* Modifier.swift */,
+				ABDE0F6A27CFC7CE007B6C8E /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABCD4E7727CF75A600582A22 /* TibberPowerUps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCD4E8627CF75A900582A22 /* Build configuration list for PBXNativeTarget "TibberPowerUps" */;
+			buildPhases = (
+				ABCD4E8F27CF764100582A22 /* Generate Apollo GraphQL API */,
+				ABCD4E7427CF75A600582A22 /* Sources */,
+				ABCD4E7527CF75A600582A22 /* Frameworks */,
+				ABCD4E7627CF75A600582A22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TibberPowerUps;
+			packageProductDependencies = (
+				ABCD4E8A27CF75D200582A22 /* Apollo */,
+			);
+			productName = TibberPowerUps;
+			productReference = ABCD4E7827CF75A600582A22 /* TibberPowerUps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABCD4E7027CF75A600582A22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					ABCD4E7727CF75A600582A22 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ABCD4E7327CF75A600582A22 /* Build configuration list for PBXProject "TibberPowerUps" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABCD4E6F27CF75A600582A22;
+			packageReferences = (
+				ABCD4E8927CF75D200582A22 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
+			productRefGroup = ABCD4E7927CF75A600582A22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABCD4E7727CF75A600582A22 /* TibberPowerUps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABCD4E7627CF75A600582A22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCD4E8327CF75A900582A22 /* Preview Assets.xcassets in Resources */,
+				ABCD4E8E27CF760600582A22 /* schema.json in Resources */,
+				ABCD4E9127CF76AB00582A22 /* powerUp.graphql in Resources */,
+				ABCD4E8027CF75A900582A22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABCD4E8F27CF764100582A22 /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n#cd \"${SRCROOT}/Shared\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABCD4E7427CF75A600582A22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCD4E7E27CF75A600582A22 /* ContentView.swift in Sources */,
+				ABDE0F6B27CFC7CE007B6C8E /* Constants.swift in Sources */,
+				ABDE0F7327D0A097007B6C8E /* FetchErrorView.swift in Sources */,
+				ABDE0F6527CFBFC7007B6C8E /* PowerUpListView.swift in Sources */,
+				ABDE0F6127CFBD84007B6C8E /* DeivceProperties.swift in Sources */,
+				ABCD4E9327CF77DA00582A22 /* PowerUpsVM.swift in Sources */,
+				ABDE0F6927CFC34D007B6C8E /* Modifier.swift in Sources */,
+				ABDE0F6D27CFF5D1007B6C8E /* ShareViews.swift in Sources */,
+				ABDE0F6727CFBFD7007B6C8E /* PowerUpDetailView.swift in Sources */,
+				ABCD4E9D27CF81DB00582A22 /* PowerUpModel.swift in Sources */,
+				ABCD4E9527CF77E900582A22 /* Network.swift in Sources */,
+				ABCD4E7C27CF75A600582A22 /* TibberPowerUpsApp.swift in Sources */,
+				ABDE0F7127D09773007B6C8E /* LoadingView.swift in Sources */,
+				ABCD4E9727CF7AFF00582A22 /* API.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABCD4E8427CF75A900582A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABCD4E8527CF75A900582A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABCD4E8727CF75A900582A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TibberPowerUps/Preview Content\"";
+				DEVELOPMENT_TEAM = ZD74G4QNW2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wgoweb.TibberPowerUps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABCD4E8827CF75A900582A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TibberPowerUps/Preview Content\"";
+				DEVELOPMENT_TEAM = ZD74G4QNW2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wgoweb.TibberPowerUps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABCD4E7327CF75A600582A22 /* Build configuration list for PBXProject "TibberPowerUps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCD4E8427CF75A900582A22 /* Debug */,
+				ABCD4E8527CF75A900582A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCD4E8627CF75A900582A22 /* Build configuration list for PBXNativeTarget "TibberPowerUps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCD4E8727CF75A900582A22 /* Debug */,
+				ABCD4E8827CF75A900582A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ABCD4E8927CF75D200582A22 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ABCD4E8A27CF75D200582A22 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABCD4E8927CF75D200582A22 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ABCD4E7027CF75A600582A22 /* Project object */;
+}
